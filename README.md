@@ -14,7 +14,7 @@ The project is designed to be dataset independent so if there is a dataset that 
 
 ### Access
 Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has access to the data. 
-![](img/data.png)
+![](img/data.PNG)
 
 ## Project Overview 
 ### this project consists of the following files:
@@ -44,7 +44,7 @@ hyperparameters selected for tuning were:
 ## Debugging and Profiling
 set the Debugger hook to record and keep track of the Loss Criterion metrics of the process in all phases (training/ validation/ testing)
 Cross entropy plot is shown below
-![](img/debugger.png)
+![](img/debugger.PNG)
 
 There is  behaviour of not getting smooth output lines.
 
